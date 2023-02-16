@@ -47,11 +47,11 @@ Install the Python dependencies:
 ```sh
 pip install -r requirements.txt
 ```
-
-The [get_transaction.py](get_transaction.py) file:
+To retive and add block data to a Google spreadsheet, you need to execute the [process_store_data.py](process_store_data.py) file. 
+Before doing so, you must follow the instructions in the [blog](https://chainstack.com/how-to-buidl-your-own-web3-dashboard/) and setup the proper authentication for spreadsheet access. Once you set up the authentication, open a terminal in the project directory and use the following command to execute the file:
 
 ```sh
-python get_transaction.py
+python process_store_data.py
 ```
 
 ## Prerequisites
